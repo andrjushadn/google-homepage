@@ -1,0 +1,128 @@
+body {
+	font-family: Arial;
+	font-size: 12px;
+}
+div {
+	margin: 0;
+	padding: 0;
+}
+
+.main {
+	margin: 100px auto;
+	position: relative;
+	top:100px;
+	width: 800px;
+}
+
+#logo {
+	background: url(https://patrickcoombe.com/wp-content/uploads/2015/09/new-google-logo-2015.png);
+	background-size: 290px 120px;
+	height:120px;
+	width:100%;
+	position: absolute;
+	
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.search  {
+	position: relative;
+	top: 140px;
+	height: 50px;
+	width: 60%;
+	margin: 0 auto;
+	border-top: 0.5em;
+	border: 1px solid #f2f2f2;
+	box-shadow: 1px 2px 2px #f2f2f2;
+}
+input {
+	padding-top: 5px;
+	padding-left: 10px;
+	border: 0 solid;
+	height: 40px;
+	font-size: 20px;
+}
+
+*:focus{
+	outline: none;
+}
+#bottonsearch, #bottonluck {
+	position: absolute;
+	top:230px;
+}
+#bottonsearch {
+	left: 250px;
+	position: absolute;
+	text-align: center;
+
+}
+#bottonluck {
+	right:250px;
+	position: absolute;
+	text-align: center;
+}
+p {
+	line-height: 0.8em;
+}
+button {
+	height: 40px;
+	width: 140px;
+	background-color: #f2f2f2;
+	font-family: Arial, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	color: #737373;
+	border: 0;
+	border-radius: 2px;
+}
+button:hover{
+	border: 1px solid #b3b3b3;
+	color: black;
+	box-shadow: 1px 2px 2px #b3b3b3;
+}
+#footer ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;	
+	background:  #f2f2f2;
+	padding-top: 19px;
+	font-size: 14px;
+}
+ li {
+	display: inline;
+	padding: 10px;
+}
+#left {
+	float: left;
+}
+#right {
+	float: right;
+	padding-right: 5px;
+}
+#footer {
+	position: fixed;
+	bottom: 0;
+	height: 50px;
+	background: #f2f2f2;
+	width: 100%;
+	margin-left: -5px;
+	padding: 0;
+	padding-right: 20px;
+	border-top: 1px solid #d9d9d9;
+}
+ a {
+	color: #737373;
+	text-decoration: none;
+}
+
+ a:hover {
+	text-decoration: underline;
+}
+
+#topfooter {
+	display: fixed;
+	float: right;
+	margin-top: -200px;
+	margin-right: 80px;
+	font-size: 14px;
+
+}
